@@ -1,0 +1,244 @@
+/* Estilos para o header */
+.header {
+    background-color: #f2e2d2; /* Cor de fundo pastel */
+    color: #6e6e6e; /* Cor do texto */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilos para o logo */
+  .logo {
+    text-decoration: none;
+    color: #6e6e6e; /* Cor do texto do logo */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  /* Estilos para o menu de navegação */
+  .main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .main-nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #6e6e6e; /* Cor dos links do menu */
+    font-weight: bold;
+    transition: transform 0.3s; /* Efeito de transição suave */
+  }
+  
+  /* Efeito de zoom suave no hover dos links do menu */
+  .main-nav a:hover {
+    color: #f372c2; /* Cor ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom em 10% */
+  }
+  
+  /* Estilos para a seção hero */
+  .hero {
+    background-color: #fef1e9; /* Cor de fundo pastel */
+    color: #6e6e6e; /* Cor do texto */
+    padding: 60px 0; /* Espaçamento interno superior e inferior */
+    text-align: center;
+  }
+  
+  .main-text h5 {
+    color: #f372c2; /* Cor de destaque */
+    font-size: 18px;
+  }
+  
+  .main-text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .main-text p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Estilos para o botão "Compre agora" */
+  .main-btn {
+    background-color: #f372c2; /* Cor de destaque */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .main-btn:hover {
+    background-color: #ff90d1; /* Cor do botão ao passar o mouse */
+  }
+  
+  /* Estilos para a seta de rolagem para baixo */
+  .down-arrow {
+    text-align: center;
+  }
+  
+  .down a {
+    color: #f372c2; /* Cor da seta */
+    font-size: 36px;
+    text-decoration: none;
+  }
+  /* Estilos para a seção de produtos */
+.trending-products {
+    background-color: #f2e2d2; /* Cor de fundo pastel */
+    color: #6e6e6e; /* Cor do texto */
+    padding: 60px 0; /* Espaçamento interno superior e inferior */
+    text-align: center;
+  }
+  
+  .center-text h2 {
+    font-size: 36px;
+    color: #f372c2; /* Cor de destaque */
+  }
+  
+  /* Estilos para os produtos */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+  }
+  
+  .row {
+    background-color: #fff; /* Cor de fundo para os produtos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    border-radius: 05%;
+    transition: transform 0.3s;
+  }
+  .row :hover{
+    transform: scale(1.1);
+  }
+  
+  .row img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 20%;
+  }
+  
+  .product-text h5 {
+    color: #f372c2; /* Cor de destaque */
+    font-size: 18px;
+  }
+  
+  .heart-icon i {
+    color: #f372c2; /* Cor do ícone do coração */
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .ratting i {
+    color: #ff90d1; /* Cor do ícone de avaliação */
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .price h4 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #6e6e6e; /* Cor do preço */
+  }
+  
+  .price p {
+    color: #f372c2; /* Cor do preço em destaque */
+    font-weight: bold;
+  }
+  
+  /* Menu de navegação para produtos */
+  .product-menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .product-menu a {
+    text-decoration: none;
+    color: #f372c2; /* Cor dos links do menu */
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 2px solid #f372c2; /* Borda */
+    border-radius: 20px; /* Cantos arredondados */
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .product-menu a:hover {
+    background-color: #f372c2; /* Cor de fundo ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+  }
+  /* Estilização do footer */
+.footer {
+  background-color: #FFF5EE; /* Cor de fundo bonita */
+  color: #f372c2; /* Cor do texto */
+  padding: 30px 0; /* Espaçamento interno superior e inferior */
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fd90ef;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer a:hover {
+  color: #ff00d4; /* Cor ao passar o mouse */
+}
+
+/* Estilo para os ícones de redes sociais */
+.social-links a {
+  font-size: 24px;
+  margin-right: 20px;
+  color: #fd90ef;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #ff00d4; /* Cor ao passar o mouse */
+}
