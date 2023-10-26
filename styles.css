@@ -1,28 +1,77 @@
+/* Estilos globais */
+*{border: 0;
+padding: 0;
+text-decoration: none;
+width: 100%}
+
 /* Estilos para o header */
 .header {
-    background-color: #f2e2d2; /* Cor de fundo pastel */
+    background-color: rgb(254, 241, 233); /* Cor de fundo pastel */
     color: #6e6e6e; /* Cor do texto */
     padding: 20px 0; /* Espaçamento interno superior e inferior */
+    text-align: center;
+    
   }
   
   .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    
+    justify-content:space-around;
+   
   }
+ /* Estilos para o subtexto */
+  .main-text{
+    align-items: center;
+    background-color: #fcd0ef;
+    align-content: center;
+    flex-direction: row;
+    width: 100%;
+     
+  }
+  .main-text h5{
+    background-color: #fcd0ef;
+    font-size: 50px;
+  }
+  .main-text h1 {
+    background-color: #fcd0ef;
+    font-size: 36px;
+    margin:0;
+    height: auto;
+}
+  .main-text p{
+    background-color: #fcd0ef;
+    font-size: 25px;
+    
+  }
+  .main-text a{
+    font-size: 15px;
+    width: 25px;
+    
+  }
+  .button-btn  {
+    background-color: #f372c2;
+    width: 150px;
+    border-radius: 10px;
+    padding: 05px;
+    font-size: larger;
+
+  }
+  .button-btn:hover{
+    background-color: #fc01b0
+  }
+
   
   /* Estilos para o logo */
   .logo {
     text-decoration: none;
     color: #6e6e6e; /* Cor do texto do logo */
-    font-size: 24px;
+    font-size: 2px;
     font-weight: bold;
     text-align: center;
     line-height: 60px;
   }
   
   .logo img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     vertical-align: middle;
   }
@@ -48,7 +97,7 @@
   
   /* Efeito de zoom suave no hover dos links do menu */
   .main-nav a:hover {
-    color: #f372c2; /* Cor ao passar o mouse */
+    color: #f37272; /* Cor ao passar o mouse */
     transform: scale(1.1); /* Efeito de zoom em 10% */
   }
   
@@ -129,6 +178,7 @@
     max-width: 300px;
     border-radius: 05%;
     transition: transform 0.3s;
+    
   }
   .row :hover{
     transform: scale(1.1);
@@ -156,6 +206,8 @@
     color: #ff90d1; /* Cor do ícone de avaliação */
     font-size: 18px;
     margin: 5px 0;
+    display: inline;
+    
   }
   
   .price h4 {
@@ -202,6 +254,14 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.footer-col{
+  background-color: red;
+  font-size: 25px;
+  display: inline;
+  width: 100%;
+  
+  
 }
 
 .footer h4 {
