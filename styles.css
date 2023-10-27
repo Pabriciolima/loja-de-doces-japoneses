@@ -178,8 +178,10 @@ width: 100%}
     max-width: 300px;
     border-radius: 05%;
     transition: transform 0.3s;
+    text-align: center
     
   }
+  
   .row :hover{
     transform: scale(1.1);
   }
@@ -243,6 +245,7 @@ width: 100%}
     background-color: #f372c2; /* Cor de fundo ao passar o mouse */
     color: #fff; /* Cor do texto ao passar o mouse */
   }
+ 
   /* Estilização do footer */
 .footer {
   background-color: #FFF5EE; /* Cor de fundo bonita */
@@ -254,15 +257,16 @@ width: 100%}
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  
+ 
 }
-.footer-col{
-  background-color: red;
-  font-size: 25px;
-  display: inline;
+.row{
+  flex-direction: row;
   width: 100%;
-  
-  
+  border: 100%;
+
 }
+
 
 .footer h4 {
   font-size: 18px;
